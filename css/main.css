@@ -1,0 +1,35 @@
+/* main.css */
+
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0 auto;
+    background-color:rgb(29, 29, 29);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.toolbar{
+    background-color:rgb(0, 0, 0);
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.toolbar li {
+    display: inline;
+    padding: 50px;
+}
+
+.toolbar a{
+    color:#ffffff;
+}
+
+.toolbar a:hover{
+    color:#abe080;
+}

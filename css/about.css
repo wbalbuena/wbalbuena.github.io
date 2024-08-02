@@ -1,0 +1,14 @@
+/* index.css */
+
+main{
+    width:50%;
+}
+
+p{
+    margin: 50px;
+    margin-top:10px;
+    font-size: x-large;
+    color:#abe080;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
