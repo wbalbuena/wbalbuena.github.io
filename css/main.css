@@ -2,9 +2,12 @@
 
 body {
     font-family: Georgia, sans-serif;
-    margin: 0 auto;
-    background-color:rgb(29, 29, 29);
     font-family: 'Courier New', Courier, monospace;
+    background-image: url('images/background.png');
+    background-color:rgba(0, 0, 0, 0.75);
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:overlay;
 }
 
 main {
