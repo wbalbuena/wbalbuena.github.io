@@ -2,33 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ButtonList from './ButtonList.jsx'
 
 export default function App() {
   return (
     <>
       <h1>WILLIAM BALBUENA</h1>
+      <ButtonList />
       <div className="card">
-        <p>Languages: Python, C++, Java, SQL, HTML, CSS, JavaScript</p>
-        <p>Frameworks: Flask, React</p>
-        <p>Libraries: Selenium</p>
+        <b>Experience:</b><ul><li>ASIC Characterization Junior Engineer @ Micron Technology</li><li>IT General Helper @ San Joaquin Delta College, IT Department</li></ul>
+        <b>Awards:</b><ul><li>Valedictorian @ University of the Pacific</li><li>1st @ 2021 H2O Hacakthon</li></ul>
+        <p><b>Languages</b>: Python, C++, Java, SQL, HTML, CSS, JavaScript</p>
+        <p><b>Technologies</b>: Flask, React, Selenium</p>
+        <p><b>Other Skills</b>: 104 WPM certified typing speed, 100+ Leetcode problems solved</p>
       </div>
-      <div className="projects">
-        <Project name="OutLinked" description="AUTOMATED WEB SCRAPER + WEB APPLICATION" languages="Python, HTML, CSS, JavaScript" technologies="React, Flask, Selenium, SQLite" />
-        <Project name="SongSurf" description="MUSIC RECOMMENDATION WEB APPLICATION" languages="Python, HTML, CSS, JavaScript" technologies="Flask, SQLite" />
-      </div>
+      <a href="https://www.linkedin.com/in/william-balbuena/" target="_blank"><p>For more information, connect with me on LinkedIn!</p></a>
     </>
-  )
-}
-
-function Project({ name, description, languages, technologies }){
-  return(
-    <>
-      <div className="project">
-        <h1>{name}</h1>
-        <h2>{description}</h2>
-        <p>Languages: {languages}</p>
-        <p>Technologies: {technologies}</p>
-      </div>
-    </>
-  )
+  );
 }
