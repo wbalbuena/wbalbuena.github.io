@@ -5,9 +5,9 @@ import ButtonList from './ButtonList.jsx'
 export default function App() {
   return (
     <>
-      <h1>william balbuena</h1>
+      <h1>william b. balbuena</h1>
       <div className="card">
-        <b>important links</b>
+        <b>links</b>
         <p><a href="https://www.linkedin.com/in/william-balbuena/" target="_blank" >LinkedIn</a></p>
       </div>
       <div className="card">
@@ -17,7 +17,7 @@ export default function App() {
       <div className="card">
         <b>experiences</b>
         <p>ASIC Characterization Junior Engineer @ <span class="text-[#0078C1]">Micron Technology</span></p>
-        <p>IT General Helper @ San Joaquin Delta College, IT Department</p>
+        <p>IT General Helper @ <span class="text-[#fac624]">San Joaquin Delta College</span>, IT Department</p>
       </div>
       <div className="card">
         <b>awards</b>
@@ -35,7 +35,7 @@ export default function App() {
       </div>
       <div className="card">
         <b>projects</b>
-        <p><a href="https://opl.ink" target="_blank">oplink</a>: public job listings scraper + full-stack web application  <ul><li>Built with: Python, Selenium, React, PostgreSQL</li></ul></p>
+        <p><a href="https://opl.ink" target="_blank">oplink</a>: public job listings scraper + filter + full-stack web application  <ul><li>built with: Python, Selenium, React, PostgreSQL</li></ul></p>
       </div>
       <div className="card">
         <b>misc</b>
