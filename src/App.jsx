@@ -39,7 +39,7 @@ export default function App() {
       </div>
       <div className="card">
         <b>misc</b>
-        <p>104 WPM certified typing speed, 100+ <span class="text-[#FFA116]">Leetcode</span> problems solved</p>
+        <p>104 WPM certified typing speed</p>
       </div>
     </>
   );
