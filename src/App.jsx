@@ -8,7 +8,7 @@ export default function App() {
       <h1>william b. balbuena</h1>
       <div className="card">
         <b>links</b>
-        <p><a href="https://www.linkedin.com/in/william-balbuena/" target="_blank" >LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/william-balbuena/" target="_blank" >LinkedIn</a>, <a href="https://github.com/wbalbuena" target="_blank" >GitHub</a></p>
       </div>
       <div className="card">
         <b>about</b>
