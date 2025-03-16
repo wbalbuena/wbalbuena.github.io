@@ -35,7 +35,7 @@ export default function App() {
       </div>
       <div className="card">
         <b>projects</b>
-        <p><a href="https://opl.ink" target="_blank">oplink</a>: public job listings scraper + filter + full-stack web app  <ul><li>built with: <span class="text-[#FFD43B]">Python</span>, <span class="text-[#43B02A]">Selenium</span>, BeautifulSoup, Flask, <span class="text-[#61DAFB]">React</span>, PostgreSQL</li></ul></p>
+        <p><a href="https://github.com/wbalbuena/oplink" target="_blank">oplink</a>: public job listings scraper + filter + full-stack web app  <ul><li>built with: <span class="text-[#FFD43B]">Python</span>, <span class="text-[#43B02A]">Selenium</span>, BeautifulSoup, Flask, <span class="text-[#61DAFB]">React</span>, PostgreSQL</li></ul></p>
         <p><a href="https://github.com/comp195/SongSurf" target="_blank">SongSurf</a>: algorithmic music recommender full-stack web app integrating third-party API<ul><li>built with: <span class="text-[#FFD43B]">Python</span>, Flask, SQLite</li></ul></p>
       </div>
       <div className="card">
