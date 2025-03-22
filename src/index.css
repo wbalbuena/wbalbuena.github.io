@@ -51,6 +51,11 @@ ul{
   margin:0.5em;
 }
 
+.icons{
+  display:flex;
+  justify-content:left;
+}
+
 .card {
   text-align:left;
   margin:0 auto;

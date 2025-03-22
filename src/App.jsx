@@ -12,7 +12,10 @@ export default function App() {
       <h1>william b. balbuena</h1>
       <div className="card">
         <b>links</b>
-        <p><a href="https://www.linkedin.com/in/william-balbuena/" target="_blank" >LinkedIn</a>, <a href="https://github.com/wbalbuena" target="_blank" >GitHub</a></p>
+        <div className="icons">
+          <a href="https://www.linkedin.com/in/william-balbuena/" target="_blank" ><img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" className="icon"/></a>
+          <a href="https://github.com/wbalbuena" target="_blank" ><img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000" className="icon"/></a>
+        </div>
       </div>
       <div className="card">
         <b>about</b>
