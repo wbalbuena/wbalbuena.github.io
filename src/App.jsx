@@ -3,7 +3,8 @@ import './App.css'
 import ButtonList from './ButtonList.jsx'
 
 const projects = [{title:"oplink", link:"https://github.com/wbalbuena/oplink", description:"public job listings scraper + filter + full-stack web app", tools:"Python, Selenium, React, Flask, HTML/CSS, PostgreSQL"}, 
-  {title:"SongSurf", link:"https://github.com/comp195/SongSurf", description:"algorithmic music recommender full-stack web app integrating third-party API", tools:"Python, Flask, HTML/CSS, SQLite"}
+  {title:"SongSurf", link:"https://github.com/comp195/SongSurf", description:"algorithmic music recommender full-stack web app integrating third-party API", tools:"Python, Flask, HTML/CSS, SQLite"},
+  {title:"wbalbuena.github.io", link:"https://github.com/wbalbuena/wbalbuena.github.io", description:"personal website / portfolio", tools:"React, HTML/CSS"},
 ]
 
 export default function App() {
