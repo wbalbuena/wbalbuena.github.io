@@ -2,6 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import ButtonList from './ButtonList.jsx'
 
+const projects = [{title:"oplink", link:"https://github.com/wbalbuena/oplink", description:"public job listings scraper + filter + full-stack web app", tools:"Python, Selenium, React, Flask, HTML/CSS, PostgreSQL"}, 
+  {title:"SongSurf", link:"https://github.com/comp195/SongSurf", description:"algorithmic music recommender full-stack web app integrating third-party API", tools:"Python, Flask, HTML/CSS, SQLite"}
+]
+
 export default function App() {
   return (
     <>
@@ -35,8 +39,19 @@ export default function App() {
       </div>
       <div className="card">
         <b>projects</b>
-        <p><a href="https://github.com/wbalbuena/oplink" target="_blank">oplink</a>: public job listings scraper + filter + full-stack web app  <ul><li>built with: <span class="text-[#FFD43B]">Python</span>, <span class="text-[#43B02A]">Selenium</span>, BeautifulSoup, Flask, <span class="text-[#61DAFB]">React</span>, PostgreSQL</li></ul></p>
-        <p><a href="https://github.com/comp195/SongSurf" target="_blank">SongSurf</a>: algorithmic music recommender full-stack web app integrating third-party API<ul><li>built with: <span class="text-[#FFD43B]">Python</span>, Flask, SQLite</li></ul></p>
+        <div className="projects">
+        {
+          projects.map((project, index) => (
+            <Project
+              key = {index}
+              title = {project.title}
+              link = {project.link}
+              description = {project.description}
+              tools = {project.tools}
+            />
+          ))
+        }
+        </div>
       </div>
       <div className="card">
         <b>misc</b>
@@ -44,4 +59,16 @@ export default function App() {
       </div>
     </>
   );
+}
+
+function Project( {title, link, description, tools } ){
+  return (
+    <>
+      <a href={link} target="_blank" className="project">
+        <h1>{title}</h1>
+        <h2>{description}</h2>
+        <p>{tools}</p>
+      </a>
+    </>
+  )
 }

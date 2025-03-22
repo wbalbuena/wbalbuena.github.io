@@ -51,23 +51,6 @@ ul{
   margin:0.5em;
 }
 
-.buttons{
-  display:flex;
-  justify-content:space-evenly;
-  background-color:rgb(94, 148, 209);
-}
-
-button {
-  width:8em;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  cursor: pointer;
-  background-color:rgb(94, 148, 209);
-  border-width:0;
-}
-
 .card {
   text-align:left;
   margin:0 auto;
@@ -78,4 +61,48 @@ button {
   border-bottom-width:10px;
   margin-bottom:20px;
   font-size:2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:2vw;
+  justify-content:center;
+  margin-bottom:1vh;
+}
+
+.project {
+  width:25vw;
+  text-align:center;
+  background-color:black;
+  border-color:rgb(78, 78, 78);
+  border-radius:0.25rem;
+  border-width:0.25rem;
+  margin-top:1vh;
+  text-decoration:none;
+}
+.project:hover{
+  border-color:white;
+}
+.project h1{
+  font-size:clamp(1rem,5vw,2rem);
+  font-weight: bold;
+}
+.project h2{
+  font-size:clamp(0.5rem,3vw,1rem);
+  font-style:italic;
+  color:rgb(235, 235, 235);
+}
+.project p{
+  font-size:clamp(0.5rem,3vw,1rem);
+  color:rgb(133, 133, 133);
+}
+
+@media (max-width:530px){
+  .projects{
+    grid-template-columns: auto;
+  }
+  .project{
+    width:60vw;
+  }
 }
