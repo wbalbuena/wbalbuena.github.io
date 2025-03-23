@@ -109,7 +109,7 @@ ul{
   color:rgb(133, 133, 133);
 }
 
-@media (max-width:530px){
+@media (max-width:810px){
   .projects{
     grid-template-columns: auto;
   }
