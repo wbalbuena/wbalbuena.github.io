@@ -30,6 +30,12 @@ html, body {
   padding: 0;
 }
 
+b {
+  background-color:#1b263b;
+  padding:5px;
+  border-radius:5px;
+  border-color:#1b263b;
+}
 
 a {
   font-weight: 500;
@@ -73,16 +79,13 @@ ul{
 .card {
   text-align:left;
   margin:0 auto;
-  border-color:#1b263b;
-  border-style:solid;
-  border-width:0;
-  border-bottom-width:10px;
-  margin-bottom:20px;
+  margin-top:30px;
   font-size:2rem;
   width:100%;
 }
 
 .bookshelf {
+  margin-top:12.5px;
   font-size:1rem;
 }
 
