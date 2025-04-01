@@ -24,7 +24,7 @@ export default function App() {
         <div className="card">
         <b>currently reading 📚</b>
         <div className="bookshelf">
-          <GoodreadsBookshelf userId="188900711-william" shelf="currently-reading" width="clamp(5rem, 20vw, 5rem)" />
+          <GoodreadsBookshelf userId="188900711-william" shelf="currently-reading" width="91.45px" />
         </div>
       </div>
         <div className="card">
