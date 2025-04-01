@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ButtonList from './ButtonList.jsx'
+import GoodreadsBookshelf from "react-goodreads-shelf"
 
 const projects = [{title:"oplink", link:"https://github.com/wbalbuena/oplink", description:"public job listings scraper + filter + full-stack web app", tools:"Python, Selenium, React, Flask, HTML/CSS, PostgreSQL"}, 
   {title:"SongSurf", link:"https://github.com/comp195/SongSurf", description:"algorithmic music recommender full-stack web app integrating third-party API", tools:"Python, Flask, HTML/CSS, SQLite"},
@@ -20,6 +21,12 @@ export default function App() {
           <b>about 🎓</b>
           <p>BS in Computer Science from <span class="text-[#F47821]">University of the Pacific</span></p>
         </div>
+        <div className="card">
+        <b>currently reading 📚</b>
+        <div className="bookshelf">
+          <GoodreadsBookshelf userId="188900711-william" shelf="currently-reading" width="clamp(5rem, 20vw, 5rem)" />
+        </div>
+      </div>
         <div className="card">
           <b>experiences 👔</b>
           <p>ASIC Characterization Junior Engineer @ <span class="text-[#0078C1]">Micron Technology</span></p>
