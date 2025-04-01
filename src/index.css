@@ -62,30 +62,37 @@ ul{
   height: auto;
 }
 
+.cards{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:60vw;
+  column-gap:1vw;
+  margin: 0 auto;
+}
+
 .card {
   text-align:left;
   margin:0 auto;
-  width:60vw;
   border-color:#1b263b;
   border-style:solid;
   border-width:0;
   border-bottom-width:10px;
   margin-bottom:20px;
   font-size:2rem;
+  width:100%;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap:2vw;
+  grid-template-columns: auto;
   justify-content:center;
   margin-bottom:1vh;
 }
 
 .project {
-  width:25vw;
+  width:100%;
   text-align:center;
-  background-color:black;
+  background-color:rgb(16, 17, 19);
   border-color:rgb(78, 78, 78);
   border-radius:0.25rem;
   border-width:0.25rem;
@@ -109,11 +116,8 @@ ul{
   color:rgb(133, 133, 133);
 }
 
-@media (max-width:810px){
-  .projects{
+@media (max-width:1345px){
+  .cards{
     grid-template-columns: auto;
-  }
-  .project{
-    width:60vw;
   }
 }
