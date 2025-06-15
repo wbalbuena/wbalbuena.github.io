@@ -68,17 +68,22 @@ ul{
   height: auto;
 }
 
+.container{
+  display:grid;
+  grid-template-rows:auto auto;
+  width:60vw;
+  margin: 0 auto;
+}
+
 .twocolumns{
   display:grid;
   grid-template-columns: 70% auto;
-  width:60vw;
   margin: 0 auto;
 }
 
 .cards{
   display:grid;
   grid-template-columns: auto;
-  row-gap:2%;
   margin: 0 auto;
 }
 
@@ -87,6 +92,7 @@ ul{
   margin:0 auto;
   font-size:1.5rem;
   width:100%;
+  margin-bottom:1.5vh;
 }
 
 .bookshelf {
@@ -94,22 +100,30 @@ ul{
   font-size:1rem;
 }
 
+.bottom {
+  text-align:center;
+  width:100%;
+  margin:0 auto;
+  font-size:1.5rem;
+  display:grid;
+  grid-template-rows: auto auto;
+}
+
 .projects {
   display: grid;
-  grid-template-columns: auto;
-  justify-content:left;
-  margin-bottom:1vh;
+  grid-template-columns: 49% 49%;
+  column-gap: 2%;
 }
 
 .project {
-  width:100%;
   text-align:center;
   background-color:rgb(16, 17, 19);
   border-color:rgb(78, 78, 78);
-  border-radius:0.25rem;
+  border-radius:1rem;
   border-width:0.25rem;
-  margin-top:1vh;
+  padding:1vh;
   text-decoration:none;
+  margin-top:10px;
 }
 .project:hover{
   border-color:white;
