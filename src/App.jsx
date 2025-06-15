@@ -21,36 +21,38 @@ export default function App() {
           <div className="cards">
             <div className="card">
               <b>about 🎓</b>
-              <p>BS in Computer Science from <span class="text-[#F47821]">University of the Pacific</span></p>
+              <p>computer science, bs @ <span class="text-[#F47821]">university of the pacific</span></p>
             </div>
             <div className="card">
               <b>experiences 👔</b>
-              <p>ASIC Characterization Junior Engineer @ <span class="text-[#0078C1]">Micron Technology</span></p>
-              <p>Mustang Tech Squad @ <span class="text-[#fac624]">San Joaquin Delta College</span>, IT Department</p>
+              <p>asic characterization junior engineer @ <span class="text-[#0078C1]">micron technology</span></p>
+              <p>mustang tech squad @ <span class="text-[#fac624]">san joaquin delta college</span>, it department</p>
             </div>
             <div className="card">
               <b>awards 🥇</b>
-              <p>Valedictorian @ <span class="text-[#F47821]">University of the Pacific</span></p>
-              <p>1st @ 2021 SJCOE <span class="text-blue-400">H2O Hackathon</span></p>
+              <p>valedictorian @ <span class="text-[#F47821]">university of the pacific</span></p>
+              <p>1st @ 2021 sjcoe <span class="text-blue-400">h2o hackathon</span></p>
             </div>
             <div className="card">
               <b>languages 🗣</b>
-              <p>I like coding with <span class="text-[#FFD43B]">Python</span>, <span class="text-[#336791]">SQL</span>, <span class="text-[#00599C]">C++</span></p>
-              <p>I've had some work with: <span class="text-[#217346]">VBA</span>, <span class="text-[#6E4C13]">Assembly</span>, <span class="text-[#A8B9CC]">C</span>, <span class="text-[#E76F00]">Java</span>, <span class="text-[#E34F26]">HTML</span> / <span class="text-[#1572B6]">CSS</span>, <span class="text-[#F7DF1E]">JavaScript</span></p>
+              <p>i like coding with <span class="text-[#FFD43B]">python</span>, <span class="text-[#336791]">sql</span>, <span class="text-[#00599C]">c++</span></p>
+              <p>i've had some work with: <span class="text-[#217346]">vba</span>, <span class="text-[#6E4C13]">assembly</span>, <span class="text-[#A8B9CC]">c</span>, <span class="text-[#E76F00]">java</span>, <span class="text-[#E34F26]">html</span> / <span class="text-[#1572B6]">css</span>, <span class="text-[#F7DF1E]">javascript</span></p>
             </div>
             <div className="card">
               <b>technologies 💻</b>
-              <p>Flask, <span class="text-[#61DAFB]">React</span>, <span class="text-[#43B02A]">Selenium</span>, SQLite, PostgreSQL, <span class="text-[#199F4B]">vim</span></p>
+              <p>flask, <span class="text-[#61DAFB]">react</span>, <span class="text-[#43B02A]">selenium</span>, sqlite, postgresql, <span class="text-[#199F4B]">vim</span></p>
             </div>
             <div className="card">
               <b>misc</b>
-              <p>104 WPM certified typing speed</p>
+              <p>104 wpm certified typing speed</p>
             </div>
           </div>
-          <div className="card">
-            <b>currently reading 📚</b>
-            <div className="bookshelf">
-              <GoodreadsBookshelf userId="188900711-william" shelf="currently-reading" width="91.45px" />
+          <div className="cards">
+            <div className="card">
+              <b>currently reading 📚</b>
+              <div className="bookshelf">
+                <GoodreadsBookshelf userId="188900711-william" shelf="currently-reading" width="91.45px" />
+              </div>
             </div>
           </div>
         </div>
